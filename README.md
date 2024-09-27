@@ -8,11 +8,9 @@
 - [Teoría](#teoría)
   * [FSM](#fsm)
   * [Reactividad](#reactividad)
-  * [Algoritmos de Cobertura](#algoritmos-de-cobertura)
 - [Funcionalidad del código](#funcionalidad)
-  * [Generación de Ángulos Aleatorios](#generación-de-ángulos-aleatorios)
-  * [Movimiento en Dash](#movimiento-en-dash)
-  * [Movimiento en Espiral](#movimiento-en-espiral)
+  * [Algoritmos de Cobertura](#algoritmos-de-cobertura)
+  * [Dificultades](#dificultades)
 - [Video](#video)
 
 </details>
@@ -60,20 +58,26 @@ La FSM del robot se basa en la detección de colisiones y la estrategia de limpi
     Razón: Al final de una serie de movimientos, el robot debe reiniciar su ciclo para continuar explorando nuevas áreas. Este enfoque garantiza que el robot maximice su cobertura y minimice la posibilidad de quedar atrapado en un patrón repetitivo de colisiones.
 
 ### [Reactividad](#)
-
-
-### [Algoritmos de Cobertura](#)
+El código es reactivo porque utiliza time.time() en lugar de sleep(), lo que permite que el robot esté siempre atento a su entorno sin detenerse por un tiempo fijo. Esto significa que sigue midiendo el tiempo mientras puede reaccionar a eventos, como colisiones, de forma inmediata. Además, está programado con FSM, lo que le permite verificar constantemente si necesita cambiar de estado, por ejemplo, de moverse en espiral a girar o avanzar en línea recta. De esta forma, el robot siempre está preparado para adaptarse en tiempo real según lo que detecta.
 
 
 ## [Funcionalidad del código](#)
-### [Generación de Ángulos Aleatorios](#)
 
+### [Algoritmos de Cobertura](#)
 
-### [Movimiento en Dash](#)
+El robot comienza moviéndose en espiral, aumentando su velocidad lineal y disminuyendo gradualmente su velocidad angular para expandir la espiral. Si detecta una colisión con el bumper, interrumpe este movimiento y entra en un estado de giro, ajustando su dirección según el lugar del choque (izquierda, derecha o frontal). El giro se realiza durante un tiempo aleatorio, lo que le permite evitar obstáculos de manera no predecible.
 
+Tras completar el giro, el robot entra en un estado de movimiento recto, avanzando hasta detectar otra colisión o, en el caso de la última serie de movimientos, deteniéndose tras un tiempo aleatorio para evitar choques. Este ciclo de estados se repite varias veces hasta que el robot completa un número definido de colisiones, volviendo entonces al estado de espiral.
 
-### [Movimiento en Espiral](#)
+En total, el robot realiza hasta cuatro series de colisiones. En cada serie, después de colisionar y girar, el robot se mueve de nuevo en línea recta hasta el siguiente choque. Sin embargo, en la última serie, es decir, tras el tercer choque (cuarta colisión siendo la última), el robot no avanza hasta chocar de nuevo, sino que se mueve en línea recta por un tiempo aleatorio antes de detenerse. Esto asegura que el robot finalice su recorrido sin necesidad de realizar una colisión final.
 
+Este enfoque permite que el robot cubra el área eficientemente mientras ajusta su comportamiento de acuerdo con las colisiones que experimenta, lo que es ideal para entornos dinámicos donde el robot debe adaptarse constantemente.
+
+### [Dificultades](#)
+
+La mayor dificultad que enfrenté fui yo mismo ya que me puse a realizar la práctica sin haber leído todo el enunciado de la práctica, las ganas de programar y trabajar me cegaron y eso me convirtió en mi mayor enemigo. Había escrito el código sin usar una Máquina de Estados Finita (FSM) y solo con "sleep" para manejar los tiempos, lo que hizo que el diseño fuera torpe y complicado de ajustar. Así que tuve que reescribir gran parte del código para implementar bien los estados y eliminar los "sleep". He de decir que menos mal que lo hice ya que ahora funciona mucho mejor.
 
 ## [Video](#)
+[![Mira este video](https://img.youtube.com/vi/5KjhgpSd9Ww/maxresdefault.jpg)](https://youtu.be/5KjhgpSd9Ww?si=QhySTQuyrdwZsCam)
+
 
