@@ -97,6 +97,11 @@ La mayor dificultad que enfrenté fui yo mismo ya que me puse a realizar la prá
 
 
 # P2 - Follow Line
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/604ab9f8-8ac5-43a5-aae0-b09938547472" width="750" height="750">
+</p>
+
+
 
 ## P2 - Follow Line
 
