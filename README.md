@@ -101,26 +101,26 @@ La mayor dificultad que enfrenté fui yo mismo ya que me puse a realizar la prá
   <img src="https://github.com/user-attachments/assets/604ab9f8-8ac5-43a5-aae0-b09938547472" width="750" height="750">
 </p>
 
-## [Objetivo](#objetivo-p2)
+<h2 id="objetivo-p2">Objetivo</h2>
 
 
-## [Teoría](#teoría-p2)
+<h2 id="teoría-p2">Teoría</h2>
 
-### [Controlador PID](#controlador-pid-p2)
-
-
-## [Funcionalidad del Código](#funcionalidad-del-código-p2)
-
-### [Detección de la Línea](#detección-de-la-línea-p2)
+<h3 id="controlador-pid-p2">Controlador PID</h3>
 
 
-### [Ajuste de Parámetros del Controlador](#ajuste-de-parámetros-del-controlador-p2)
+<h2 id="funcionalidad-del-código-p2">Funcionalidad del Código</h2>
+
+<h3 id="detección-de-la-línea-p2">Detección de la Línea</h3>
 
 
-## [Dificultades](#dificultades-p2)
+<h3 id="ajuste-de-parámetros-del-controlador-p2">Ajuste de Parámetros del Controlador</h3>
 
 
-## [Video](#video-p2)
+<h2 id="dificultades-p2">Dificultades</h2>
+
+
+<h2 id="video-p2">Video</h2>
 
 
 
