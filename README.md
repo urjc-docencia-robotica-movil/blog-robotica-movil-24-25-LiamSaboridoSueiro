@@ -18,16 +18,17 @@
 <details>
 <summary>Práctica 2</summary>
 
-- [Objetivo](#objetivo)
-- [Teoría](#teoría)
-  * [Controlador PID](#controlador-pid)
-- [Funcionalidad del Código](#funcionalidad-del-código)
-  * [Detección de la Línea](#detección-de-la-línea)
-  * [Ajuste de Parámetros del controlador](#ajuste-de-parámetros-del-controlador)
-- [Dificultades](#dificultades)
-- [Video](#video)
+- [Objetivo](#objetivo-p2)
+- [Teoría](#teoría-p2)
+  * [Controlador PID](#controlador-pid-p2)
+- [Funcionalidad del Código](#funcionalidad-del-código-p2)
+  * [Detección de la Línea](#detección-de-la-línea-p2)
+  * [Ajuste de Parámetros del controlador](#ajuste-de-parámetros-del-controlador-p2)
+- [Dificultades](#dificultades-p2)
+- [Video](#video-p2)
 
 </details>
+
 
 # P1 - Vacuum Cleaner
 
@@ -97,21 +98,30 @@ La mayor dificultad que enfrenté fui yo mismo ya que me puse a realizar la prá
 
 # P2 - Follow Line
 
-## [Objetivo](#objetivo)
+## P2 - Follow Line
 
-## [Teoría](#teoría)
+## [Objetivo](#objetivo-p2)
 
-### [Controlador PID](#controlador-pid)
 
-## [Funcionalidad del Código](#funcionalidad-del-código)
+## [Teoría](#teoría-p2)
 
-### [Detección de la Línea](#detección-de-la-línea)
+### [Controlador PID](#controlador-pid-p2)
 
-### [Ajuste de Parámetros del Controlador](#ajuste-de-parámetros-del-controlador)
 
-## [Dificultades](#dificultades)
+## [Funcionalidad del Código](#funcionalidad-del-código-p2)
 
-## [Video](#video)
+### [Detección de la Línea](#detección-de-la-línea-p2)
+
+
+### [Ajuste de Parámetros del Controlador](#ajuste-de-parámetros-del-controlador-p2)
+
+
+## [Dificultades](#dificultades-p2)
+
+
+## [Video](#video-p2)
+
+
 
 
 
