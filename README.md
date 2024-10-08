@@ -15,7 +15,21 @@
 
 </details>
 
-## P1 - Vacuum Cleaner
+<details>
+<summary>Práctica 2</summary>
+
+- [Objetivo](#objetivo)
+- [Teoría](#teoría)
+  * [Controlador PID](#controlador-pid)
+- [Funcionalidad del Código](#funcionalidad-del-código)
+  * [Detección de la Línea](#detección-de-la-línea)
+  * [Ajuste de Parámetros del controlador](#ajuste-de-parámetros-del-controlador)
+- [Dificultades](#dificultades)
+- [Video](#video)
+
+</details>
+
+# P1 - Vacuum Cleaner
 
 ![442991](https://github.com/user-attachments/assets/15a1598a-b269-450b-9d2b-7640c1e55fd7)
 
@@ -79,6 +93,27 @@ La mayor dificultad que enfrenté fui yo mismo ya que me puse a realizar la prá
 
 ## [Video](#)
 [![Mira este video](https://img.youtube.com/vi/5KjhgpSd9Ww/maxresdefault.jpg)](https://youtu.be/5KjhgpSd9Ww?si=QhySTQuyrdwZsCam)
+
+
+# P2 - Follow Line
+
+## [Objetivo](#objetivo)
+
+## [Teoría](#teoría)
+
+### [Controlador PID](#controlador-pid)
+
+## [Funcionalidad del Código](#funcionalidad-del-código)
+
+### [Detección de la Línea](#detección-de-la-línea)
+
+### [Ajuste de Parámetros del Controlador](#ajuste-de-parámetros-del-controlador)
+
+## [Dificultades](#dificultades)
+
+## [Video](#video)
+
+
 
 
 
