@@ -145,6 +145,15 @@ Una de las mayores dificultades al desarrollar el controlador PID fue ajustar lo
 
 <h2 id="video-p2">Video</h2>
 
+En el código, hay una tabla que indica qué valores cambiar dependiendo del mapa que quieras utilizar. También es importante considerar que, dependiendo del ordenador que uses, el rendimiento puede variar y el coche podría ir más lento.
+
+- Video en el **Mapa Simple** (33 segundos):  
+  [![Mapa Simple](https://img.youtube.com/vi/eKodGntwkJ0/0.jpg)](https://youtu.be/eKodGntwkJ0)
+
+- Video en el **Mapa Simple Ackerman** (150 segundos):  
+  [![Mapa Simple Ackerman](https://img.youtube.com/vi/93viZgo9WaU/0.jpg)](https://youtu.be/93viZgo9WaU)
+
+
 
 
 
