@@ -1,6 +1,6 @@
 # blog-robotica-movil-24-25-LiamSaboridoSueiro
 
-# ¡Hola! Bienvenido a mi blog de Robótica Móvil 🤖🚗
+## ¡Hola! Bienvenido a mi blog de Robótica Móvil 🤖🚗
 
 En este repositorio encontrarás toda la documentación y desarrollo de las prácticas de Robótica Móvil. Cada práctica tiene su propio blog donde explico en detalle los algoritmos, dificultades, resultados y, por supuesto, los vídeos de las simulaciones.
 
