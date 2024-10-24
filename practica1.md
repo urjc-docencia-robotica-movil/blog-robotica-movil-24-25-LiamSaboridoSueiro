@@ -1,6 +1,6 @@
 # blog-robotica-movil-24-25-LiamSaboridoSueiro
 
-## Indice de prácticas
+## Indice
 <details>
 <summary>Práctica 1</summary>
 
