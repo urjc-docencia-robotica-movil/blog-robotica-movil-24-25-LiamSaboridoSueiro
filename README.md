@@ -6,8 +6,8 @@ En este repositorio encontrarás toda la documentación y desarrollo de las prá
 
 ## Enlaces a los Blogs de las Prácticas
 
-- [Práctica 1: Vacuum Cleaner](./Vacuum_Cleaner/README.md)
-- [Práctica 2: Follow Line](./Follow_Line/README.md)
+- [Práctica 1: Vacuum Cleaner](./Vacuum_Cleaner.md)
+- [Práctica 2: Follow Line](./Follow_Line.md)
 - 
 - **Más prácticas próximamente...**
 
