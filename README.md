@@ -8,7 +8,7 @@ En este repositorio encontrarás toda la documentación y desarrollo de las prá
 
 - [Práctica 1: Vacuum Cleaner](./Vacuum_Cleaner.md)
 - [Práctica 2: Follow Line](./Follow_Line.md)
-- 
+- [Práctica 3: Obstacle Avoidance](./Obstacle_Avoidance.md)
 - **Más prácticas próximamente...**
 
 
