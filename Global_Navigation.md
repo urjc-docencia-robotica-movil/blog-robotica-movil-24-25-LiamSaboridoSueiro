@@ -84,14 +84,12 @@ Uno de los principales problemas que enfrenté fue trabajar con el formato del m
 
 Otra dificultad importante fue aprender a usar correctamente la función `absolute2relative`. Al principio, cometí errores al calcular las coordenadas relativas del waypoint respecto al coche, lo que causaba que el coche no girara correctamente o incluso se desviara de la ruta. Este problema complicó mucho la implementación de la navegación basada en gradiente, ya que la dirección que debía seguir no era la adecuada. Tras varias pruebas y ajustes, logré que las conversiones funcionaran correctamente, y el coche finalmente pudo orientarse hacia el objetivo de manera eficiente.
 
-
-
-
-
-
-
 ## Video
 
-Disculpa la calidad del video, lo tuve que grabar con el móvil ya que mi portátil no tiene la capacidad suficiente para grabar y ejecutar la simulación al mismo tiempo.
+Disculpa la calidad de los videos, lo tuve que grabar con el móvil ya que mi portátil no tiene la capacidad suficiente para grabar y ejecutar la simulación al mismo tiempo.
 
-[![Video de la Práctica 3](https://img.youtube.com/vi/-USR6Nm4pgg/0.jpg)](https://youtu.be/-USR6Nm4pgg?si=KU-xcmtXNo_DHixv)
+- **Primer video**  
+  [![Video de la Práctica 4 - Parte 1](https://img.youtube.com/vi/frKL28Wp9hY/0.jpg)](https://www.youtube.com/watch?v=frKL28Wp9hY)
+
+- **Segundo video**  
+  [![Video de la Práctica 4 - Parte 2](https://img.youtube.com/vi/v0eS6tzw6zE/0.jpg)](https://www.youtube.com/watch?v=v0eS6tzw6zE)
