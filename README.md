@@ -9,7 +9,7 @@ En este repositorio encontrarás toda la documentación y desarrollo de las prá
 - [Práctica 1: Vacuum Cleaner](./Vacuum_Cleaner.md)
 - [Práctica 2: Follow Line](./Follow_Line.md)
 - [Práctica 3: Obstacle Avoidance](./Obstacle_Avoidance.md)
-- [Práctica 4: Global Navigation](./Global_Navigation.md)Monte-Carlo-Laser-Localization
+- [Práctica 4: Global Navigation](./Global_Navigation.md)
 - [Práctica 5: Monte Carlo Laser Localization](./Monte_Carlo_Laser_Localization.md)
 - **Más prácticas próximamente...**
 
